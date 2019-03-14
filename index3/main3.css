@@ -1,0 +1,28 @@
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    animation-name: spinning;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes spinning {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    
+}
