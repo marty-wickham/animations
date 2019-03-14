@@ -1,0 +1,9 @@
+.element {
+    width: 100px;
+    height: 100px;
+    background-color: #e48610;
+}
+
+.element:hover {
+    transform: translateX(100%);
+     
