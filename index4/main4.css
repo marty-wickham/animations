@@ -2,8 +2,11 @@
     width: 100px;
     height: 100px;
     background-color: #e48610;
+    transition: transform 1s ease-in-out;
+
 }
 
 .element:hover {
     transform: translateX(100%);
      
+}
